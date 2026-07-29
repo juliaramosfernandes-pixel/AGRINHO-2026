@@ -42,11 +42,12 @@ text-decoration: underline;
 section {
 background-color: white;
 width: 80%;
-margin: 25px auto;
-padding: 20px;
-border-radius: 12px;
-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
-transition: 0.3s;
+margin: 30px auto;
+padding: 30px;
+border-radius: 18px;
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+transition: all 0.3s ease;
+border-left: 6px solid #2e7d32;
 }
 
 p {
@@ -142,5 +143,5 @@ font-size: 18px;
 }
 section:hover {
 transform: translateY(-5px);
-box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+box-shadow: 0 12px 25px rgba(0, 0, 0, 0.18);
 }
